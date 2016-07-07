@@ -1,0 +1,17 @@
+{
+  "name": "allstar",
+  "authors": [
+    "Johannes Fischer <git@johannes-fischer.de>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
