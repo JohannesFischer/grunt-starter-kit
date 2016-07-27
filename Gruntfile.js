@@ -65,11 +65,11 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks ('grunt-contrib-uglify');
-  grunt.loadNpmTasks ('grunt-contrib-concat');
-  grunt.loadNpmTasks ('grunt-autoprefixer');
-  grunt.loadNpmTasks ('grunt-contrib-sass');
-  grunt.loadNpmTasks ('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
   grunt.registerTask('default', ['autoprefixer:dist','sass:dev', 'concat', 'watch']);
