@@ -1,7 +1,7 @@
 {
   "name": "grunt-starter-kit",
   "preferGlobal": "false",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A simple grunt starter kit",
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -13,10 +13,10 @@
     "grunt-stylelint-reporter": "^2.0.0"
   },
   "directories": {
-    "scss": "assets/styles",
+    "scss": "assets/source/styles",
     "css": "assets/build/css",
     "js": "assets/build/js",
-    "js_dev": "assets/js",
+    "js_dev": "assets/source/js",
     "img": "assets/build/img",
     "img_dev": "assets/source/img"
   }
